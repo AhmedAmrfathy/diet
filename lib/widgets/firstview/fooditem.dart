@@ -157,7 +157,7 @@ class FootWidget extends StatelessWidget {
           FoodItem(
             color: Color.fromRGBO(251, 132, 170, 1),
             img:
-            'https://lh3.googleusercontent.com/proxy/2WvxMrh0XeqG6YxZObVCmWrmwZUjA7LToJvmW3E55lMJ-5lQNk0weoaKVZ7sXRisZCzlKrzNIcmi0A2kAtcfnwSt2bEzAmkZIJuuvbSYbEvH_4clRdKYdFCMBRvieXJ_SbtDNZ0-d_w',
+            'https://lh3.googleusercontent.com/proxy/V7zOcfq6i7fVeDPeRQjgB5ylaPtHWiTRHwqn4i1biJRv2wtN1l2EZfWC_AYq7d0s6w6pjFPmW9h0EKzyF505KaGS5r9sELIaJK3cNrP1obCAkKISdw_4oZne0kJzjExWNWnZHWIzsOGurHEaiCOKTppXIQWwQhnZedoXDOVxO4hyZ9Y',
             title: 'Snack',
             desca: 'cheese',
             descb: 'good',

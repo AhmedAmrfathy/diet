@@ -1,13 +1,12 @@
-import 'package:diet/widgets/foregrundwidget.dart';
-import 'package:diet/widgets/topwidget.dart';
-import 'package:diet/widgets/undercicleitem.dart';
+import 'package:diet/widgets/firstview/topwidget.dart';
+import 'package:diet/widgets/firstview/undercicleitem.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'bodymeasureitem.dart';
-import 'centerwidget.dart';
-import 'fooditem.dart';
+import '../firstview/bodymeasureitem.dart';
+import '../firstview/centerwidget.dart';
+import '../firstview/fooditem.dart';
 
 class FirdtView extends StatelessWidget {
   @override

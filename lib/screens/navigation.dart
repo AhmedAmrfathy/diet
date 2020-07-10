@@ -1,4 +1,5 @@
-import 'package:diet/widgets/firstview.dart';
+import 'package:diet/widgets/views/firstview.dart';
+import 'package:diet/widgets/views/secondview.dart';
 import 'package:flutter/material.dart';
 
 class NavigationScreen extends StatefulWidget {
@@ -10,21 +11,15 @@ class _NavigationScreenState extends State<NavigationScreen> {
   var index = 0;
   Map screens = {
     0: FirdtView(),
-    1: Container(
-      color: Colors.yellow,
-    ),
-    2: Container(
-      color: Colors.green,
-    ),
-    3: Container(
-      color: Colors.purple,
-    )
+    1: SecondView(),
+    2: FirdtView(),
+    3:  SecondView()
   };
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        floatingActionButton: FloatingActionButton(
+        floatingActionButton: FloatingActionButton(onPressed: (){},
           backgroundColor: Color.fromRGBO(70, 90, 213, .7),
           child: Icon(
             Icons.add,
